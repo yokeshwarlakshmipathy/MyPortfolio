@@ -1,0 +1,58 @@
+═══════════════════════════════════════════════════════════════
+   🚀 NETLIFY DEPLOYMENT - VISUAL GUIDE
+═══════════════════════════════════════════════════════════════
+
+STEP 1: Open Browser
+   ↓
+   Go to: https://app.netlify.com/drop
+   ↓
+   [You'll see a big drop zone area]
+
+STEP 2: Open File Explorer
+   ↓
+   Navigate to: MyPortfolio\dist
+   ↓
+   [You'll see these files: index.html, photo.jpg, Yokeshwar_L_Resume.pdf, assets folder]
+
+STEP 3: Drag & Drop
+   ↓
+   DRAG the entire "dist" folder
+   ↓
+   DROP it on the Netlify webpage
+   ↓
+   [You'll see upload progress]
+
+STEP 4: Wait
+   ↓
+   [30-60 seconds]
+   ↓
+   [Netlify processes your files]
+
+STEP 5: SUCCESS! 🎉
+   ↓
+   [Your site is live!]
+   ↓
+   [You'll get a URL like: https://your-site.netlify.app]
+
+═══════════════════════════════════════════════════════════════
+
+WHAT TO EXPECT:
+
+1. Upload Progress Bar
+2. "Deploying..." message
+3. "Your site is live!" message
+4. Your live URL
+
+═══════════════════════════════════════════════════════════════
+
+VERIFY AFTER DEPLOYMENT:
+
+☑️ Visit your URL
+☑️ Check photo shows in About section
+☑️ Click "View Resume" - should open PDF
+☑️ Test all sections
+☑️ Test Dark/Light mode
+☑️ Check on mobile phone
+
+═══════════════════════════════════════════════════════════════
+

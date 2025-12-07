@@ -1,0 +1,5 @@
+# Resume Placeholder
+
+Please add your resume PDF file here and name it "resume.pdf"
+
+The resume download button in the Hero section will link to this file.
