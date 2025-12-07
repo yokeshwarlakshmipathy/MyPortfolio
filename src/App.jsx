@@ -12,12 +12,14 @@ import Footer from './sections/Footer';
 
 function App() {
   useEffect(() => {
-    // Set initial theme
-    const isDark = localStorage.getItem('darkMode') === 'true' ||
-                   (!localStorage.getItem('darkMode') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    // Default to light mode - only use dark if explicitly saved in localStorage
+    const savedTheme = localStorage.getItem('darkMode');
+    const isDark = savedTheme === 'true';
     
     if (isDark) {
       document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
     }
   }, []);
 

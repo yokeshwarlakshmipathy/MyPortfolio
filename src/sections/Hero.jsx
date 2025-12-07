@@ -122,13 +122,13 @@ const Hero = () => {
 
           <motion.div
             variants={itemVariants}
-            className="flex flex-wrap items-center justify-center gap-4 mb-16"
+            className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-3 md:gap-4 mb-12 md:mb-16 w-full sm:w-auto"
           >
             <Button
               variant="primary"
               onClick={() => setIsResumeOpen(true)}
               icon={Eye}
-              className="px-8 py-4 text-base font-semibold"
+              className="px-6 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold w-full sm:w-auto"
             >
               View Resume
             </Button>
@@ -136,7 +136,7 @@ const Hero = () => {
               variant="secondary"
               href={personalInfo.github}
               icon={Github}
-              className="px-8 py-4 text-base font-semibold"
+              className="px-6 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold w-full sm:w-auto"
             >
               GitHub
             </Button>
@@ -144,7 +144,7 @@ const Hero = () => {
               variant="secondary"
               href={personalInfo.linkedin}
               icon={Linkedin}
-              className="px-8 py-4 text-base font-semibold"
+              className="px-6 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold w-full sm:w-auto"
             >
               LinkedIn
             </Button>

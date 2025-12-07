@@ -43,13 +43,13 @@ const ResumeViewer = ({ isOpen, onClose }) => {
             className="fixed inset-0 z-[101] flex items-center justify-center p-4"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="relative w-full max-w-5xl h-[90vh] bg-white dark:bg-gray-900 rounded-2xl shadow-2xl overflow-hidden flex flex-col">
+            <div className="relative w-full max-w-5xl h-[90vh] md:h-[90vh] bg-white dark:bg-gray-900 rounded-2xl shadow-2xl overflow-hidden flex flex-col m-2 md:m-0">
               {/* Header */}
-              <div className="flex items-center justify-between p-6 border-b border-gray-200 dark:border-gray-800 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 md:p-6 border-b border-gray-200 dark:border-gray-800 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900">
+                <h2 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
                   My Resume
                 </h2>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2 md:gap-3 w-full sm:w-auto">
                   <Button
                     variant="primary"
                     download
